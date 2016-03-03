@@ -3,6 +3,10 @@ namespace Ecrmnn\Lorem;
 
 class Lorem
 {
+    /**
+     * @param int $paragraphs
+     * @return string
+     */
     public function html($paragraphs = 1)
     {
         $html = '';
@@ -17,6 +21,12 @@ class Lorem
         return $html;
     }
 
+    /**
+     * @param int $width
+     * @param null $height
+     * @param array $attributes
+     * @return string
+     */
     public function image($width = 1024, $height = null, $attributes = [])
     {
         if (is_null($height)) {
@@ -27,6 +37,10 @@ class Lorem
         '/?random" alt="Lorem"' . $this->addAttributes($attributes) . '>';
     }
 
+    /**
+     * @param $attributes
+     * @return string
+     */
     private function addAttributes($attributes)
     {
         $attr = ' ';
@@ -42,6 +56,9 @@ class Lorem
         return rtrim($attr);
     }
 
+    /**
+     * @return array
+     */
     private function paragraphs()
     {
         return [
