@@ -15,7 +15,7 @@
       "Ecrmnn\\Lorem\\": "src/"
     }
   },
-  "require": {
+  "require-dev": {
     "phpunit/phpunit": "^4.8"
   }
 }
