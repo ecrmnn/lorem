@@ -1,4 +1,4 @@
-# package-dependencies [![Build Status](https://travis-ci.org/ecrmnn/lorem.svg?branch=master)](https://travis-ci.org/ecrmnn/lorem) [![Total Downloads](https://poser.pugx.org/ecrmnn/lorem/downloads)](https://packagist.org/packages/ecrmnn/lorem)
+# lorem [![Build Status](https://travis-ci.org/ecrmnn/lorem.svg?branch=master)](https://travis-ci.org/ecrmnn/lorem) [![Total Downloads](https://poser.pugx.org/ecrmnn/lorem/downloads)](https://packagist.org/packages/ecrmnn/lorem)
 
 > Dummy text and images for Laravel
 
