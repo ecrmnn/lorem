@@ -21,7 +21,7 @@ Access ``Lorem`` by using the global helper ``lorem()``
 <body>
     <div class="content">
         <!-- Returns one paragraph of lorem ipsum -->
-        {!! lorem() !!}
+        {!! lorem(1) !!}
     </div>
 </body>
 ```
