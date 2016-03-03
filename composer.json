@@ -1,0 +1,21 @@
+{
+  "name": "ecrmnn/lorem",
+  "description": "Dummy text and images for Laravel",
+  "type": "helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Eckermann",
+      "email": "danieleckermann@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Ecrmnn\\Lorem\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^4.8"
+  }
+}
